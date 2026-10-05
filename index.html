@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Gear Quest 3D</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<canvas id="c"></canvas><div id="hud"></div><div id="msg"></div>
+<div id="ui"><div id="js"><i id="kn"></i></div><div id="ba" class="b">B</div><div id="bj" class="b">A</div></div>
+<div id="menu">
+ <h1>GEAR QUEST 3D</h1>
+ <p>Hero</p><div class="row" id="chars"></div>
+ <p>World</p><div class="row" id="worlds"></div>
+ <p>Mode</p><div class="row" id="modes"></div>
+ <div id="net">
+  <div class="row"><button id="hb">Host</button><button id="jb">Join</button></div>
+  <textarea id="nin" placeholder="Paste your friend's code here"></textarea><button id="nok">Connect</button>
+  <textarea id="nout" readonly placeholder="Your code appears here"></textarea><div id="ns"></div>
+ </div>
+ <button id="go">START</button>
+ <small>P1: WASD · Space jump · F spin attack · Q/E or drag turns camera<br>P2 (local): Arrows · Enter jump · Right Shift attack<br>Mobile: left stick, A jump, B attack, drag to turn camera</small>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/levels.js"></script>
+<script src="js/game.js"></script>
+<script src="js/net.js"></script>
+</body></html>

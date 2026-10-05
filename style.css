@@ -1,0 +1,21 @@
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;overflow:hidden;background:#111;font-family:"Trebuchet MS",system-ui,sans-serif;color:#fff;touch-action:none;user-select:none}
+#c{position:fixed;inset:0;width:100%;height:100%}
+#hud{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));left:10px;font:700 15px "Trebuchet MS",system-ui;text-shadow:0 2px 3px #000;pointer-events:none;line-height:1.6}
+#msg{position:fixed;top:28%;width:100%;text-align:center;font:900 clamp(22px,5vw,38px) "Trebuchet MS",system-ui;text-shadow:0 3px 8px #000;pointer-events:none}
+#menu{position:fixed;inset:0;background:linear-gradient(#1b2a5a,#0b0f24);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:12px;overflow:auto;text-align:center}
+h1{margin:0;font-size:clamp(30px,7vw,60px);letter-spacing:3px;color:#ffd21e;text-shadow:0 4px 0 #b03a1e}
+p{margin:4px 0 0;opacity:.7}
+.row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+button{font:800 15px "Trebuchet MS",system-ui;border:3px solid #556;background:#223;color:#fff;border-radius:14px;padding:10px 14px}
+button.sel{border-color:#ffd21e;background:#445;transform:scale(1.06)}
+#go{background:#ffd21e;color:#000;font-size:22px;padding:12px 44px;border-color:#fff}
+textarea{width:min(340px,90vw);height:46px;font-size:11px;display:block;margin:6px auto}
+#net{display:none}
+small{opacity:.6;max-width:540px}
+#ui{position:fixed;inset:0;pointer-events:none;display:none}
+#js{position:absolute;left:24px;bottom:calc(30px + env(safe-area-inset-bottom,0px));width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,.15);pointer-events:auto;touch-action:none}
+#kn{position:absolute;left:40px;top:40px;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.5)}
+.b{position:absolute;width:70px;height:70px;border-radius:50%;pointer-events:auto;touch-action:none;display:grid;place-items:center;font:800 22px system-ui;background:rgba(255,255,255,.25)}
+#bj{right:30px;bottom:calc(50px + env(safe-area-inset-bottom,0px))}
+#ba{right:110px;bottom:calc(20px + env(safe-area-inset-bottom,0px))}
